@@ -1,3 +1,5 @@
 Speed test : 
 curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -
 
+Git reconnect : 
+git remote rename origin <reponame>
