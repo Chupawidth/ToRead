@@ -1,5 +1,19 @@
 Speed test : 
 curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -
 
+########################################################################################
+
 Git reconnect : 
 git remote rename origin <reponame>
+
+########################################################################################
+
+To open Unidentified app and see message “XXX can't be opened. You should move it to trash.” for flash projector applications on mac os sierra
+
+This is actually a macOS Gatekeeper issue try these steps:
+
+To resolute Gatekeeper issues on macOS Sierra you might have to partially or completely disable Gatekeeper checks.
+
+Option I For a certain application run in Terminal: sudo xattr -rd com.apple.quarantine /Applications/LockedApp.app
+
+Option II To disable checks globally run in Terminal: sudo spctl --master-disable
