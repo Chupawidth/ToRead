@@ -17,3 +17,11 @@ To resolute Gatekeeper issues on macOS Sierra you might have to partially or com
 Option I For a certain application run in Terminal: sudo xattr -rd com.apple.quarantine /Applications/LockedApp.app
 
 Option II To disable checks globally run in Terminal: sudo spctl --master-disable
+
+########################################################################################
+Mac change screen shot location 
+defaults write com.apple.screencapture location /path/
+
+/path/ is the place where you want to save your screenshots.
+If screen captures are stored on your desktop:
+/path/ = ~/Desktop/.
