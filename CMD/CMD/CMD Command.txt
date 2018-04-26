@@ -25,3 +25,7 @@ defaults write com.apple.screencapture location /path/
 /path/ is the place where you want to save your screenshots.
 If screen captures are stored on your desktop:
 /path/ = ~/Desktop/.
+
+########################################################################################
+Git get remote url address
+git config --get remote.origin.url
